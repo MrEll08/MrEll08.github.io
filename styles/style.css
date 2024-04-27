@@ -1,0 +1,80 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+/* .open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+html {
+    /* font-size: 10px; px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+    background-color: rgb(198, 227, 252);;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+
+body {
+    width: 600px;
+    margin: 10px;
+}
+
+p:hover {
+    color: red;
+    border: 1px solid red;
+}
+  
+
+li:hover {
+    color: red;
+    border: 1px solid red;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 50px;
+    margin: 10px 0px 0px 0px;
+    background-color: aquamarine;
+}
+
+#timopheypidor {
+    color: red;
+    border: 1px solid red;
+}
+
+#pon {
+    font-size: 40px;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 1px 1px 1px black;
+}
+
+h2 {
+    color: rgb(255, 115, 0);
+    border: 1px solid rgb(255, 115, 0);
+}
+
+h3 {
+    color : rgb(255, 217, 0); 
+    border: 1px solid rgb(255, 217, 0);
+}
+
+h4 {
+    color : rgb(187, 255, 0);
+    border: 1px solid rgb(187, 255, 0);
+}
+
+h5 {
+    color : rgb(0, 225, 255);
+    border: 1px solid rgb(0, 225, 255);
+}
